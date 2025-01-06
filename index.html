@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escompte</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js" defer> </script>
+</head>
+<body>
+  <form id="calculationForm">
+    <label for="domicile">Domicile:</label>
+    <select id="domicile" name="domicile">
+      <option value="oui">Oui</option>
+      <option value="non">Non</option>
+    </select><br>
+    <label for="place">Place:</label>
+    <select id="place" name="place">
+      <option value="oui">Oui</option>
+      <option value="non">Non</option>
+    </select><br>
+
+    <label for="valeurNominal">Valeur Nominal:</label>
+    <input type="number" id="valeurNominal" name="valeurNominal" required><br>
+
+    <label for="tauxEscompte">Taux Escompte (%):</label>
+    <input type="number" id="tauxEscompte" name="tauxEscompte" required><br>
+
+    <label for="dateOperation">Date d'Opération:</label>
+    <input type="date" id="dateOperation" name="dateOperation" required><br>
+
+    <label for="dateEcheance">Date d'Échéance:</label>
+    <input type="date" id="dateEcheance" name="dateEcheance" required><br>
+
+    <label for="nbrJoursBanque">Nombre de Jours de Banque:</label>
+    <input type="number" id="nbrJoursBanque" name="nbrJoursBanque" required><br>
+
+    <label for="tauxEnd">Taux d'End (%):</label>
+    <input type="number" id="tauxEnd" name="tauxEnd" required><br>
+
+    <label for="tva">TVA:</label>
+    <input type="number" id="tva" name="tva" required><br>
+
+    <label for="comissionplace">Commission place:</label>
+    <input type="number" id="comissionplace" name="comissionplace" required><br>
+
+    <label for="comissiondomicile">Comission domicile:</label>
+    <input type="number" id="comissiondomicile" name="comissiondomicile" required><br>
+
+    <button type="button" onclick="calculate()">Calculate</button>
+  </form>
+<div class="panel" id="resultPanel">
+  <h2>Resultat</h2>
+   <table id="resultsTable">
+   </table>
+</div>
+</body>
+</html>

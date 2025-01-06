@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding:10px;
+    background-image: url(banking-financial-technology-with-currency-symbols-background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+
+  h2, h1 {
+    text-align: center;
+  }
+
+  form {
+    background: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block ;
+    margin-bottom:8px
+  }
+
+  input, select {
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  button {
+    width: 80%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(76, 76, 186);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  #resultPanel {
+    width: 100%;
+    max-width: 1800px; 
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #000; 
+    display: none; 
+}
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 10px;
+    border-bottom: 5px #ddd;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #333
+  }
+  
+
+  th {
+    background-color:rgb(72, 72, 160);
+    color: #fff;
+  }
+  td {
+    background-color: #fff;
+    color: #000;
+}
