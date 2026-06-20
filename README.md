@@ -1,3 +1,4 @@
+This is a test project.
 # Escompte Projet Finance
 
 A web-based finance project focused on discount calculations and financial computations.
