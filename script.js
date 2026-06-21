@@ -52,3 +52,24 @@ function calculate() {
     `
     document.getElementById("resultPanel").style.display = "block";
   }
+
+function reset() {
+    // Clear all input fields
+    document.getElementById("domicile").value = "";
+    document.getElementById("place").value = "";
+    document.getElementById("comissionplace").value = "";
+    document.getElementById("comissiondomicile").value = "";
+    document.getElementById("valeurNominal").value = "";
+    document.getElementById("tauxEscompte").value = "";
+    document.getElementById("dateOperation").value = "";
+    document.getElementById("dateEcheance").value = "";
+    document.getElementById("nbrJoursBanque").value = "";
+    document.getElementById("tauxEnd").value = "";
+    document.getElementById("tva").value = "";
+    
+    // Clear results table
+    document.getElementById("resultsTable").innerHTML = "";
+    
+    // Hide results panel
+    document.getElementById("resultPanel").style.display = "none";
+  }
